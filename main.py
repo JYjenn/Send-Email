@@ -49,7 +49,7 @@ if __name__ == '__main__':
     centers = extract_unique_names(data_frame, column_name='센터명')  # 데이터프레임 내 센터명 확인 (중복x)
 
     # 참조자 이메일 명단 (영업팀)
-    cc_address = 'jun.k@taewoongmedical.com; duet@taewoongmedical.com; bumseok@taewoongmedical.com'
+    cc_address = 'AAA.gmail.com; BBB.gmail.com; CCC.gmail.com' # 참조자 여러명일때 세미콜론으로 나열
 
     for tmp_center in centers:
         try:
